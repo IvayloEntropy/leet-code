@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maximalRectangle = function(matrix) {
-    return matrix;
+    return matrix
 };
 
-console.log(maximalRectangle(22));
+console.log(maximalRectangle(22))
