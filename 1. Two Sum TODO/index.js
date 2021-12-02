@@ -11,7 +11,7 @@ var twoSum = function(nums, target) {
         const numElement = nums[numIndex];
         for (let numIndexCheck = 0; numIndexCheck < nums.length; numIndexCheck++) {
             const numCheckElement = nums[numIndexCheck];
-            if (numElement + numCheckElement === target) {
+            if (numElement + numCheckElement === target && numIndex !== numIndexCheck) {
                 return [nums.indexOf(numElement), nums.indexOf(numCheckElement)]
             }
         }
